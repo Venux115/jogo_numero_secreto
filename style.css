@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root 
+{
+    --font: 'Inter', sans-serif;
+    --bg-color: #392467;
+    --primary-color: #FFD1E3;
+}
+
+
+body
+{
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    gap: 1rem;
+}
+
+h1 
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+h3
+{
+    font-size: 2rem;
+}
+
+.mensagem
+{
+    font-size: 1.5rem;
+}
+
+.box
+{
+    border: 2px solid var(--primary-color);
+    margin: 1.2rem;
+    display: block;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-jogar
+{
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 300ms;
+}
+
+.btn-jogar:hover
+{
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--bg-color);
+}
